@@ -1,0 +1,16 @@
+@import "abstract/variables";
+
+// Base
+@import "base/minireset";
+@import "base/base";
+@import "base/typography";
+
+// Utils
+@import "abstract/utils";
+
+// Layouts
+@import "layouts/navbar";
+@import "layouts/footer";
+
+// Pages
+@import "pages/home.scss";

@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+  min-width: 320px;
+  overflow-x: hidden;
+  background-color: #fff;
+  touch-action: manipulation;
+  //   opacity: 0;
+  //   transition: opacity 1s ease-out;
+}
+
+a {
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit;
+  font-weight: inherit;
+  display: inline-block;
+}

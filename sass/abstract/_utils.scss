@@ -1,0 +1,139 @@
+// Text alignment
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.container {
+  max-width: 115rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.6rem;
+
+  @media (min-width: 768px) {
+    padding: 0 4rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0;
+  }
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+// Spacing
+// Margin top
+@for $i from 1 through 30 {
+  .u-mt-#{$i} {
+    margin-top: #{$i}rem;
+  }
+}
+
+// Margin right
+@for $i from 1 through 30 {
+  .u-mr-#{$i} {
+    margin-right: #{$i}rem;
+  }
+}
+
+// Margin bottom
+@for $i from 1 through 30 {
+  .u-mb-#{$i} {
+    margin-bottom: #{$i}rem;
+  }
+}
+
+// Margin left
+@for $i from 1 through 30 {
+  .u-ml-#{$i} {
+    margin-left: #{$i}rem;
+  }
+}
+
+@media (min-width: 768px) {
+  // Spacing
+  // Margin top
+  @for $i from 1 through 30 {
+    .u-mt-md-#{$i} {
+      margin-top: #{$i}rem;
+    }
+  }
+
+  // Margin right
+  @for $i from 1 through 30 {
+    .u-mr-md-#{$i} {
+      margin-right: #{$i}rem;
+    }
+  }
+
+  // Margin bottom
+  @for $i from 1 through 30 {
+    .u-mb-md-#{$i} {
+      margin-bottom: #{$i}rem;
+    }
+  }
+
+  // Margin left
+  @for $i from 1 through 30 {
+    .u-ml-md-#{$i} {
+      margin-left: #{$i}rem;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  // Text alignment
+  .text-lg-right {
+    text-align: right !important;
+  }
+
+  .text-lg-left {
+    text-align: left !important;
+  }
+
+  // Display
+  .d-lg-none {
+    display: none !important;
+  }
+
+  // Spacing
+  // Margin top
+  @for $i from 1 through 30 {
+    .u-mt-lg-#{$i} {
+      margin-top: #{$i}rem;
+    }
+  }
+
+  // Margin right
+  @for $i from 1 through 30 {
+    .u-mr-lg-#{$i} {
+      margin-right: #{$i}rem;
+    }
+  }
+
+  // Margin bottom
+  @for $i from 1 through 30 {
+    .u-mb-lg-#{$i} {
+      margin-bottom: #{$i}rem;
+    }
+  }
+
+  // Margin left
+  @for $i from 1 through 30 {
+    .u-ml-lg-#{$i} {
+      margin-left: #{$i}rem;
+    }
+  }
+}

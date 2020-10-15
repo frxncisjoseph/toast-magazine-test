@@ -1,0 +1,273 @@
+.content {
+  img {
+    width: 100%;
+  }
+
+  p {
+    font-family: "FreightTextProBook", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .text-md {
+    font-size: 1.8rem;
+  }
+
+  .text-container {
+    padding: 0 11vw;
+  }
+
+  .text-quote {
+    font-family: "FreightTextProSemibold", sans-serif;
+    font-size: 2rem;
+    line-height: 1.3;
+    padding: 0 4.4vw;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  li {
+    padding: 0 1rem;
+  }
+}
+
+// Comment box
+.comment-box {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #222;
+  padding: 4rem;
+}
+
+.comment-block {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+}
+
+.comment-block-response {
+  padding-left: 20px;
+}
+
+.comment-name {
+  font-family: "FreightSansProSemibold", sans-serif;
+  margin-right: 0.6rem;
+}
+
+.comment-date {
+  color: lighten(#000, 50%);
+  font-family: "FreightSansProBook", sans-serif;
+}
+
+.comment-box p {
+  margin-top: 1rem;
+}
+
+.comment-btn {
+  text-decoration: underline;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-family: "FreightSansProMedium", sans-serif;
+}
+
+// Newsletter
+.newsletter-heading {
+  font-size: 2rem;
+  font-family: "FreightSansProMedium", sans-serif;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    border: none;
+    border-bottom: 1px solid #222;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 30rem;
+    &::placeholder,
+    & {
+      color: #222;
+      text-align: center;
+      font-size: 1.8rem;
+      font-family: "FreightSansProMedium", sans-serif;
+    }
+  }
+
+  button {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #222;
+    color: #222;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "FreightSansProSemibold", sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+// News card
+.news-card {
+  margin: 0 1rem;
+}
+
+.news-hero {
+  img {
+    width: 100%;
+    vertical-align: middle;
+  }
+}
+.news-heading {
+  font-size: 2rem;
+  margin-top: 1rem;
+  font-family: "", sans-serif;
+}
+
+.news-desc {
+  font-family: "FreightTextProMedium", sans-serif;
+  font-size: 1.6rem;
+  margin-top: 0.6rem;
+}
+
+.news-footer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  a {
+    text-transform: uppercase;
+    border-bottom: 1px solid #222;
+    font-size: 1.6rem;
+    font-family: "FreightSansProSemibold", sans-serif;
+  }
+
+  span {
+    font-size: 1.5rem;
+  }
+}
+
+.news-carousel {
+  position: relative;
+  padding: 0 2rem;
+}
+
+.slick-prev.slick-arrow {
+  font-weight: 200;
+  left: -1rem;
+  top: 15%;
+
+  &::before {
+    content: "<";
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    font-size: 8rem;
+  }
+}
+
+.slick-next.slick-arrow {
+  font-weight: 200;
+  right: 0;
+  top: 15%;
+
+  &::before {
+    content: ">";
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    font-size: 8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  // News card
+  .news-card {
+    margin: 0 2rem;
+  }
+
+  .slick-prev.slick-arrow {
+    left: -2rem;
+    top: 20%;
+
+    &::before {
+      content: "<";
+      color: #000;
+      font-family: "Oswald", sans-serif;
+      font-size: 10rem;
+    }
+  }
+
+  .slick-next.slick-arrow {
+    right: -1rem;
+    top: 20%;
+
+    &::before {
+      content: ">";
+      color: #000;
+      font-family: "Oswald", sans-serif;
+      font-size: 10rem;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .news-carousel {
+    padding: 0;
+  }
+
+  .news-card {
+    margin: 0 3rem;
+  }
+
+  .slick-prev.slick-arrow {
+    left: -6rem;
+    top: 10%;
+
+    &::before {
+      content: "<";
+      color: #000;
+      font-family: "Oswald", sans-serif;
+      font-size: 15rem;
+      font-weight: 200;
+    }
+  }
+
+  .slick-next.slick-arrow {
+    right: -3rem;
+    top: 10%;
+
+    &::before {
+      content: ">";
+      color: #000;
+      font-family: "Oswald", sans-serif;
+      font-size: 15rem;
+      font-weight: 200;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    p {
+      font-size: 1.8rem;
+    }
+
+    .text-md {
+      font-size: 2.2rem;
+    }
+
+    .text-quote {
+      font-size: 3rem;
+    }
+  }
+
+  // Newsletter
+  .newsletter-heading {
+    font-size: 2.6rem;
+    font-family: "FreightSansProMedium", sans-serif;
+  }
+}

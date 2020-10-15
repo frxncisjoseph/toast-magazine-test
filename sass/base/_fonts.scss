@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+@font-face {
+  font-family: "FreightTextProLight";
+  src: url("../fonts/FreightTextProLight-Regular.eot");
+  src: local("FreightText Pro Light"), local("FreightTextProLight-Regular"),
+    url("../fonts/FreightTextProLight-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FreightTextProLight-Regular.woff2") format("woff2"),
+    url("../fonts/FreightTextProLight-Regular.woff") format("woff"),
+    url("../fonts/FreightTextProLight-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FreightTextProMedium";
+  src: url("../fonts/FreightTextProMedium-Regular.eot");
+  src: local("FreightText Pro Medium"), local("FreightTextProMedium-Regular"),
+    url("../fonts/FreightTextProMedium-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FreightTextProMedium-Regular.woff2") format("woff2"),
+    url("../fonts/FreightTextProMedium-Regular.woff") format("woff"),
+    url("../fonts/FreightTextProMedium-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FreightTextProSemibold";
+  src: url("../fonts/FreightTextProSemibold-Regular.eot");
+  src: local("FreightText Pro Semibold"), local("FreightTextProSemibold-Regular"),
+    url("../fonts/FreightTextProSemibold-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FreightTextProSemibold-Regular.woff2") format("woff2"),
+    url("../fonts/FreightTextProSemibold-Regular.woff") format("woff"),
+    url("../fonts/FreightTextProSemibold-Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FreightTextProBook";
+  src: url("../fonts/FreightTextProBook-Regular.eot");
+  src: local("FreightText Pro Book"), local("FreightTextProBook-Regular"),
+    url("../fonts/FreightTextProBook-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FreightTextProBook-Regular.woff2") format("woff2"),
+    url("../fonts/FreightTextProBook-Regular.woff") format("woff"),
+    url("../fonts/FreightTextProBook-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FreightSansProMedium";
+  src: url("../fonts/FreightSansProMedium-Regular.eot");
+  src: local("FreightSans Pro Medium"), local("FreightSansProMedium-Regular"),
+    url("../fonts/FreightSansProMedium-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FreightSansProMedium-Regular.woff2") format("woff2"),
+    url("../fonts/FreightSansProMedium-Regular.woff") format("woff"),
+    url("../fonts/FreightSansProMedium-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FreightSansProSemibold";
+  src: url("../fonts/FreightSansProSemibold-Regular.eot");
+  src: local("FreightSans Pro Semibold"), local("FreightSansProSemibold-Regular"),
+    url("../fonts/FreightSansProSemibold-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FreightSansProSemibold-Regular.woff2") format("woff2"),
+    url("../fonts/FreightSansProSemibold-Regular.woff") format("woff"),
+    url("../fonts/FreightSansProSemibold-Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FreightSansProBook";
+  src: url("../fonts/FreightSansProBook-Regular.eot");
+  src: local("FreightSans Pro Book"), local("FreightSansProBook-Regular"),
+    url("../fonts/FreightSansProBook-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FreightSansProBook-Regular.woff2") format("woff2"),
+    url("../fonts/FreightSansProBook-Regular.woff") format("woff"),
+    url("../fonts/FreightSansProBook-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

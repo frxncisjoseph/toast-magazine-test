@@ -1,0 +1,62 @@
+.footer {
+  border-top: 1px solid #222;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: "FreightSansProMedium", sans-serif;
+  padding-top: 2.4rem;
+  padding-bottom: 5rem;
+  text-align: center;
+
+  ul {
+    margin-top: 2.2rem;
+    li {
+      margin-top: 0.5rem;
+    }
+  }
+
+  &-social {
+    font-size: 3rem;
+    display: inline-flex;
+    margin-top: 3rem !important;
+
+    li {
+      padding: 0 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    &-nav {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .footer {
+    display: flex;
+
+    ul {
+      margin-top: 0;
+    }
+
+    &-nav {
+      display: flex;
+      justify-content: space-between;
+      width: 70%;
+      text-align: left;
+    }
+
+    &-social {
+      display: flex;
+      justify-content: flex-end;
+      width: 30%;
+      margin-top: 0 !important;
+      li:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
